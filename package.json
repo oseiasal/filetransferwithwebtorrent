@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker-build": "docker build filetransfer .",
+    "docker-run": "docker run --rm -p 3000:3000 filetransfer"
   },
   "dependencies": {
     "dgram": "^1.0.1",
